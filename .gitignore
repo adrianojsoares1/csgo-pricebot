@@ -2,9 +2,10 @@
 .vertx/
 
 ### Eclipse ###
-/.idea
-.editorconfig
+
 .metadata
+.project
+.editorconfig
 bin/
 tmp/
 *.tmp

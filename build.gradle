@@ -4,7 +4,7 @@ plugins {
   id 'com.github.johnrengelman.shadow' version '5.0.0'
 }
 
-group = 'com.example'
+group = 'com.market.csgo'
 version = '1.0.0-SNAPSHOT'
 
 repositories {
@@ -23,7 +23,7 @@ application {
 }
 
 
-def mainVerticleName = 'com.example.scraper.MainVerticle'
+def mainVerticleName = 'pricebot.MainVerticle'
 def watchForChange = 'src/**/*'
 def doOnChange = './gradlew classes'
 
