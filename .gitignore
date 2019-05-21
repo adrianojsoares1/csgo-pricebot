@@ -4,8 +4,6 @@
 ### Eclipse ###
 
 .metadata
-.project
-.editorconfig
 bin/
 tmp/
 *.tmp

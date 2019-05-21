@@ -1,5 +1,5 @@
 plugins {
-  id 'org.jetbrains.kotlin.jvm' version '1.3.20'
+  id 'java'
   id 'application'
   id 'com.github.johnrengelman.shadow' version '5.0.0'
 }
@@ -9,11 +9,9 @@ version = '1.0.0-SNAPSHOT'
 
 repositories {
   mavenCentral()
-  jcenter()
 }
 
 ext {
-  kotlinVersion = '1.3.20'
   vertxVersion = '3.7.0'
   junitJupiterEngineVersion = '5.4.0'
 }
@@ -22,25 +20,18 @@ application {
   mainClassName = 'io.vertx.core.Launcher'
 }
 
+sourceCompatibility = '1.8'
 
-def mainVerticleName = 'pricebot.MainVerticle'
+def mainVerticleName = 'scraper.MainVerticle'
 def watchForChange = 'src/**/*'
 def doOnChange = './gradlew classes'
 
 dependencies {
-  implementation "io.vertx:vertx-lang-kotlin:$vertxVersion"
+  implementation "io.vertx:vertx-core:$vertxVersion"
 
   testImplementation "io.vertx:vertx-junit5:$vertxVersion"
   testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$junitJupiterEngineVersion"
   testImplementation "org.junit.jupiter:junit-jupiter-api:$junitJupiterEngineVersion"
-}
-
-compileKotlin {
-  kotlinOptions.jvmTarget = '1.8'
-}
-
-compileTestKotlin {
-  kotlinOptions.jvmTarget = '1.8'
 }
 
 
