@@ -11,6 +11,11 @@ repositories {
   mavenCentral()
 }
 
+tasks.withType(JavaCompile) {
+  options.warnings = false
+}
+
+
 ext {
   vertxVersion = '3.7.0'
   junitJupiterEngineVersion = '5.4.0'
@@ -20,7 +25,7 @@ application {
   mainClassName = 'io.vertx.core.Launcher'
 }
 
-sourceCompatibility = '1.8'
+sourceCompatibility = '11'
 
 def mainVerticleName = 'scraper.MainVerticle'
 def watchForChange = 'src/**/*'
@@ -28,7 +33,11 @@ def doOnChange = './gradlew classes'
 
 dependencies {
   implementation "io.vertx:vertx-core:$vertxVersion"
-
+  
+  compile 'io.vertx:vertx-web-client:3.7.0'
+  compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.11.2'
+  compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.11.2'
+  
   testImplementation "io.vertx:vertx-junit5:$vertxVersion"
   testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$junitJupiterEngineVersion"
   testImplementation "org.junit.jupiter:junit-jupiter-api:$junitJupiterEngineVersion"

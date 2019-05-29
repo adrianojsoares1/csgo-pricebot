@@ -1,0 +1,49 @@
+[
+  {
+    "name": "AK-47",
+    "type": "rifle",
+    "skins": [
+      {
+        "name": "Bloodsport",
+        "urls": [
+          "AK-47%20%7C%20Bloodsport%20%28Factory%20New%29",
+          "AK-47%20%7C%20Bloodsport%20%28Minimal%20Wear%29",
+          "AK-47%20%7C%20Bloodsport%20%28Field%20Tested%29",
+          "AK-47%20%7C%20Bloodsport%20%28Well%20Worn%29",
+          "StatTrak™AK-47%20%7C%20Bloodsport%20%28Factory%20New%29",
+          "StatTrak™AK-47%20%7C%20Bloodsport%20%28Minimal%20Wear%29",
+          "StatTrak™AK-47%20%7C%20Bloodsport%20%28Field%20Tested%29",
+          "StatTrak™AK-47%20%7C%20Bloodsport%20%28Well%20Worn%29"
+        ]
+      },
+      {
+        "name": "Neon Rider",
+        "urls": [
+          "AK-47%20%7C%20Neon%20Rider%20%28Factory%20New%29",
+          "AK-47%20%7C%20Neon%20Rider%20%28Minimal%20Wear%29",
+          "AK-47%20%7C%20Neon%20Rider%20%28Field%20Tested%29",
+          "AK-47%20%7C%20Neon%20Rider%20%28Well%20Worn%29",
+          "AK-47%20%7C%20Neon%20Rider%20%28Battle%20Scarred%29",
+          "StatTrak™%20AK-47%20%7C%20Neon%20Rider%20%28Factory%20New%29",
+          "StatTrak™%20AK-47%20%7C%20Neon%20Rider%20%28Minimal%20New%29",
+          "StatTrak™%20AK-47%20%7C%20Neon%20Rider%20%28Field%20Tested%29",
+          "StatTrak™%20AK-47%20%7C%20Neon%20Rider%20%28Well%20Worn%29",
+          "StatTrak™%20AK-47%20%7C%20Neon%20Rider%20%28Battle%20Scarred%29"
+        ]
+      },
+      {
+        "name": "Fire Serpent",
+        "urls": [
+          "AK-47%20%7C%20Fire%20Serpent%20%28Factory%20New%29",
+          "AK-47%20%7C%20Fire%20Serpent%20%28Minimal%20Wear%29",
+          "AK-47%20%7C%20Fire%20Serpent%20%28Field%20Tested%29",
+          "AK-47%20%7C%20Fire%20Serpent%20%28Well%20Worn%29",
+          "AK-47%20%7C%20Fire%20Serpent%20%28Battle%20Scarred%29",
+          "AK-47%20%7C%20Fire%20Serpent%20%28Field%20Tested%29",
+          "AK-47%20%7C%20Fire%20Serpent%20%28Battle%20Scarred%29"
+        ]
+      }
+    ]
+  }
+]
+
