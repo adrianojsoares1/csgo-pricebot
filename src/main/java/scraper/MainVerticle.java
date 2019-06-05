@@ -14,10 +14,7 @@ import io.vertx.core.parsetools.JsonEventType;
 import io.vertx.core.parsetools.JsonParser;
 import io.vertx.ext.web.client.HttpResponse;
 import io.vertx.ext.web.client.WebClient;
-import io.vertx.ext.web.codec.BodyCodec;
-
-import java.util.Iterator;
-import java.util.Map;
+import scraper.Models.*;
 
 public class MainVerticle extends AbstractVerticle {
 
@@ -33,14 +30,10 @@ public class MainVerticle extends AbstractVerticle {
   public void start(Future<Void> startFuture) throws Exception {
     this.client = WebClient.create(vertx);
 
-    this.timerHandler = initializeTimerHandler();
     this.requestHandler = initializeRequestHandler();
     this.weaponReadHandler = initializeWeaponReadHandler();
-
-    Handler<AsyncResult<AsyncFile>> throwableHandler = getThrowableHandler(weaponReadHandler, logs);
-    vertx.fileSystem().open("src/main/java/scraper/resources/items.json", new OpenOptions(), throwableHandler);
-
-    //vertx.setPeriodic(5000, timerHandler);
+    this.timerHandler = initializeTimerHandler();
+    vertx.setPeriodic(5000, timerHandler);
   }
 
   private ThrowableHandler<AsyncResult<AsyncFile>> initializeWeaponReadHandler(){
@@ -54,10 +47,17 @@ public class MainVerticle extends AbstractVerticle {
       //Handle a new JSON object in the array
       parser.handler(event -> {
         if(event.type() == JsonEventType.VALUE){
-          JsonObject json = event.objectValue();
-          logs.info("Requesting info for weapon {}", json.getString("name"));
+          Weapon weapon;
+          try {
+            weapon = event.mapTo(Weapon.class);
+          }
+          catch(IllegalArgumentException e){
+            logs.error(e.getLocalizedMessage());
+            weaponsFile.close();
+            return;
+          }
 
-          Iterator<Map.Entry<String, Object>> skins = json.getJsonObject("skins").iterator();
+          System.out.println(weapon.toString());
         }
       });
       //Handle an error reading the file
@@ -74,8 +74,8 @@ public class MainVerticle extends AbstractVerticle {
   }
 
   private ThrowableHandler<AsyncResult<HttpResponse<JsonObject>>> initializeRequestHandler(){
-
     return event -> {
+
 
 
     };
@@ -83,25 +83,17 @@ public class MainVerticle extends AbstractVerticle {
 
   private Handler<Long> initializeTimerHandler(){
     return event -> {
+      OpenOptions options = new OpenOptions();
+      String filepath = "src/main/java/scraper/resources/items.json";
 
-
-    };
-  }
-
-  private void request(String uri){
-    String url = Utilities.buildURL(uri);
-
-    this.client.getAbs(url)
-      .as(BodyCodec.jsonObject())
-      .send(this.requestHandler);
-  }
-
-  private static <T> Handler<T> getThrowableHandler(ThrowableHandler<T> handler, Logger logs) {
-    return event -> {
-      try { handler.handle(event); }
-      catch(Throwable e){
-        logs.error(e.getMessage());
-      }
+      vertx.fileSystem().open(filepath, options, readEvent -> {
+        try{
+          weaponReadHandler.handle(readEvent);
+        }
+        catch(Throwable t){
+          logs.error(t.getMessage());
+        }
+      });
     };
   }
 
