@@ -14,6 +14,7 @@ import io.vertx.core.parsetools.JsonEventType;
 import io.vertx.core.parsetools.JsonParser;
 import io.vertx.ext.web.client.HttpResponse;
 import io.vertx.ext.web.client.WebClient;
+import io.vertx.ext.web.codec.BodyCodec;
 import scraper.Models.*;
 
 public class MainVerticle extends AbstractVerticle {
@@ -24,7 +25,7 @@ public class MainVerticle extends AbstractVerticle {
   private ThrowableHandler<AsyncResult<AsyncFile>> weaponReadHandler;
   private Handler<Long> timerHandler;
 
-  private final Logger logs = LoggerFactory.getLogger(MainVerticle.class);
+  private static final Logger logs = LoggerFactory.getLogger(MainVerticle.class);
 
   @Override
   public void start(Future<Void> startFuture) throws Exception {
@@ -33,7 +34,9 @@ public class MainVerticle extends AbstractVerticle {
     this.requestHandler = initializeRequestHandler();
     this.weaponReadHandler = initializeWeaponReadHandler();
     this.timerHandler = initializeTimerHandler();
-    vertx.setPeriodic(5000, timerHandler);
+
+    logs.info("This is a simple message at INFO level #{}", "hello");
+    //vertx.setTimer(1, timerHandler);
   }
 
   private ThrowableHandler<AsyncResult<AsyncFile>> initializeWeaponReadHandler(){
@@ -46,19 +49,30 @@ public class MainVerticle extends AbstractVerticle {
 
       //Handle a new JSON object in the array
       parser.handler(event -> {
-        if(event.type() == JsonEventType.VALUE){
-          Weapon weapon;
-          try {
-            weapon = event.mapTo(Weapon.class);
-          }
-          catch(IllegalArgumentException e){
-            logs.error(e.getLocalizedMessage());
-            weaponsFile.close();
-            return;
-          }
+        if(event.type() != JsonEventType.VALUE)
+          return;
 
-          System.out.println(weapon.toString());
+        Weapon weapon;
+
+        try {
+          weapon = event.mapTo(Weapon.class);
         }
+        catch(IllegalArgumentException e){
+          logs.error(e.getLocalizedMessage());
+          return;
+        }
+
+        weapon.getSkins().forEach(skin -> {
+
+          skin.getUrls().forEach(url -> this.client.getAbs(url.toString()).as(BodyCodec.jsonObject()).send(jsonEvent -> {
+            try{
+              this.requestHandler.handle(jsonEvent);
+            }
+            catch(Throwable t){
+              logs.error(t.getMessage());
+            }
+          }));
+        });
       });
       //Handle an error reading the file
       parser.exceptionHandler(exc -> {
@@ -75,16 +89,19 @@ public class MainVerticle extends AbstractVerticle {
 
   private ThrowableHandler<AsyncResult<HttpResponse<JsonObject>>> initializeRequestHandler(){
     return event -> {
+      if(event.failed())
+        throw event.cause();
 
+      HttpResponse<JsonObject> response = event.result();
 
-
+      System.out.println(response.body().toString());
     };
   }
 
   private Handler<Long> initializeTimerHandler(){
     return event -> {
       OpenOptions options = new OpenOptions();
-      String filepath = "src/main/java/scraper/resources/items.json";
+      String filepath = "src/main/java/scraper/resources/items.json"; //TODO make this an env var
 
       vertx.fileSystem().open(filepath, options, readEvent -> {
         try{
