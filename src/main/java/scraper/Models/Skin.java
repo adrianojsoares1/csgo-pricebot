@@ -10,7 +10,7 @@ public class Skin {
   private String name;
 
   @JsonProperty
-  private List<URI> urls;
+  private List<String> urls;
 
   public String getName() {
     return name;
@@ -21,11 +21,11 @@ public class Skin {
     return this;
   }
 
-  public List<URI> getUrls() {
+  public List<String> getUrls() {
     return urls;
   }
 
-  public Skin setUrls(List<URI> urls) {
+  public Skin setUrls(List<String> urls) {
     this.urls = urls;
     return this;
   }

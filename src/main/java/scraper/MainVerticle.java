@@ -6,7 +6,6 @@ import io.vertx.core.Future;
 import io.vertx.core.Handler;
 import io.vertx.core.file.AsyncFile;
 import io.vertx.core.file.OpenOptions;
-import io.vertx.core.json.JsonArray;
 import io.vertx.core.json.JsonObject;
 import io.vertx.core.logging.Logger;
 import io.vertx.core.logging.LoggerFactory;
@@ -25,8 +24,9 @@ public class MainVerticle extends AbstractVerticle {
   private ThrowableHandler<AsyncResult<AsyncFile>> weaponReadHandler;
   private Handler<Long> timerHandler;
 
-  private static final Logger logs = LoggerFactory.getLogger(MainVerticle.class);
+  private final Logger logs = LoggerFactory.getLogger(MainVerticle.class);
 
+  /*ENTRY POINT*/
   @Override
   public void start(Future<Void> startFuture) throws Exception {
     this.client = WebClient.create(vertx);
@@ -35,56 +35,54 @@ public class MainVerticle extends AbstractVerticle {
     this.weaponReadHandler = initializeWeaponReadHandler();
     this.timerHandler = initializeTimerHandler();
 
-    logs.info("This is a simple message at INFO level #{}", "hello");
-    //vertx.setTimer(1, timerHandler);
+    vertx.setTimer(1, timerHandler);
   }
 
-  private ThrowableHandler<AsyncResult<AsyncFile>> initializeWeaponReadHandler(){
+  private ThrowableHandler<AsyncResult<AsyncFile>> initializeWeaponReadHandler() {
     return ar -> {
-      if(ar.failed())
+      if (ar.failed())
         throw ar.cause();
 
       AsyncFile weaponsFile = ar.result();
       JsonParser parser = JsonParser.newParser(weaponsFile).objectValueMode();
 
-      //Handle a new JSON object in the array
       parser.handler(event -> {
-        if(event.type() != JsonEventType.VALUE)
-          return;
+        if (event.type() == JsonEventType.VALUE)
+          try {
+            Weapon weapon = event.mapTo(Weapon.class);
+            sendRequestsForWeapon(weapon);
+          } catch (IllegalArgumentException e) {
+            logs.error(e.getMessage());
+          }
+      }) //end λ
 
-        Weapon weapon;
-
-        try {
-          weapon = event.mapTo(Weapon.class);
-        }
-        catch(IllegalArgumentException e){
-          logs.error(e.getLocalizedMessage());
-          return;
-        }
-
-        weapon.getSkins().forEach(skin -> {
-
-          skin.getUrls().forEach(url -> this.client.getAbs(url.toString()).as(BodyCodec.jsonObject()).send(jsonEvent -> {
-            try{
-              this.requestHandler.handle(jsonEvent);
-            }
-            catch(Throwable t){
-              logs.error(t.getMessage());
-            }
-          }));
-        });
-      });
-      //Handle an error reading the file
-      parser.exceptionHandler(exc -> {
+      .exceptionHandler(exc -> {
         logs.error(exc.getMessage());
         weaponsFile.close();
-      });
-      //Handle the parser finishing the file
-      parser.endHandler(x -> {
+      }) //end λ
+
+      .endHandler(x -> {
         logs.info("Finished parsing the json file.");
         weaponsFile.close();
-      });
-    };
+      }); //end λ
+
+    }; //end λ
+  }
+
+  private void sendRequestsForWeapon(Weapon weapon){
+    weapon.getSkins().forEach(skin -> {
+      skin.getUrls().forEach(url -> {
+
+        client.getAbs(url).as(BodyCodec.jsonObject()).send(asyncHandlerEvent -> {
+          try{
+            requestHandler.handle(asyncHandlerEvent);
+          }
+          catch(Throwable t){
+            logs.error(t.getMessage());
+          }
+        }); //end λ
+      }); //end λ
+    }); //end λ
   }
 
   private ThrowableHandler<AsyncResult<HttpResponse<JsonObject>>> initializeRequestHandler(){
