@@ -2,6 +2,7 @@ package scraper.Handlers;
 
 import io.vertx.core.AsyncResult;
 import io.vertx.core.file.AsyncFile;
+import io.vertx.core.logging.LoggerFactory;
 import io.vertx.core.parsetools.JsonEventType;
 import io.vertx.core.logging.Logger;
 import io.vertx.core.parsetools.JsonParser;
@@ -13,8 +14,8 @@ import java.util.Queue;
 
 public class FileReadHandler extends ParentHandler<AsyncResult<AsyncFile>> {
 
-  public FileReadHandler(Logger logger, Queue<Request> requestQueue){
-    super(logger, requestQueue);
+  public FileReadHandler(Queue<Request> requestQueue){
+    super(LoggerFactory.getLogger(FileReadHandler.class), requestQueue);
   }
 
   @Override
