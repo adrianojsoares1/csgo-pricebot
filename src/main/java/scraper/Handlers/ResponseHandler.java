@@ -4,6 +4,7 @@ import io.vertx.core.AsyncResult;
 import io.vertx.core.json.JsonObject;
 import io.vertx.core.logging.LoggerFactory;
 import io.vertx.ext.web.client.HttpResponse;
+import scraper.Models.MarketResponse;
 
 public class ResponseHandler extends ParentHandler<AsyncResult<HttpResponse<JsonObject>>>{
 
@@ -13,7 +14,7 @@ public class ResponseHandler extends ParentHandler<AsyncResult<HttpResponse<Json
 
   @Override
   public void handle(AsyncResult<HttpResponse<JsonObject>> event) {
-    JsonObject response = event.result().body();
+    MarketResponse response = event.result().body().mapTo(MarketResponse.class);
 
     logs.info(response.toString());
   }
