@@ -7,14 +7,14 @@ import scraper.Models.Request;
 
 import java.util.Queue;
 
-public class RequestHandler extends ParentHandler<Long> {
+public class RequestHandler extends AbstractHandler<Long> {
 
   public static final int DELAY = 10000; //10 seconds
 
-  private ResponseHandler responseHandler;
+  private MarketResponseHandler responseHandler;
   private WebClient webClient;
 
-  public RequestHandler(Queue<Request> requestQueue, ResponseHandler requestHandler, WebClient client){
+  public RequestHandler(Queue<Request> requestQueue, MarketResponseHandler requestHandler, WebClient client){
     super(LoggerFactory.getLogger(RequestHandler.class), requestQueue);
     this.responseHandler = requestHandler;
     this.webClient = client;
@@ -22,13 +22,14 @@ public class RequestHandler extends ParentHandler<Long> {
 
   @Override
   public void handle(Long event) {
-    if(this.requestQueue.isEmpty())
+    if(requestQueue.isEmpty())
       return;
 
     Request request = requestQueue.poll();
 
     logs.info("Requesting {0}", request.getUrl());
-    this.webClient.getAbs(request.getUrl()).as(BodyCodec.jsonObject()).send(this.responseHandler);
+
+    webClient.getAbs(request.getUrl()).as(BodyCodec.jsonObject()).send(responseHandler);
   }
 }
 

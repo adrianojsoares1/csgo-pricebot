@@ -4,7 +4,6 @@ import io.vertx.core.AsyncResult;
 import io.vertx.core.file.AsyncFile;
 import io.vertx.core.logging.LoggerFactory;
 import io.vertx.core.parsetools.JsonEventType;
-import io.vertx.core.logging.Logger;
 import io.vertx.core.parsetools.JsonParser;
 import scraper.Models.Request;
 import scraper.Models.Skin;
@@ -12,10 +11,10 @@ import scraper.Models.PricebotError;
 
 import java.util.Queue;
 
-public class FileReadHandler extends ParentHandler<AsyncResult<AsyncFile>> {
+public class ItemReadHandler extends AbstractHandler<AsyncResult<AsyncFile>> {
 
-  public FileReadHandler(Queue<Request> requestQueue){
-    super(LoggerFactory.getLogger(FileReadHandler.class), requestQueue);
+  public ItemReadHandler(Queue<Request> requestQueue){
+    super(LoggerFactory.getLogger(ItemReadHandler.class), requestQueue);
   }
 
   @Override
