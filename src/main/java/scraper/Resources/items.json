@@ -38,8 +38,400 @@
       "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Fire%20Serpent%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
       "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Fire%20Serpent%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
       "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Fire%20Serpent%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json",
-      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Fire%20Serpent%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
       "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Fire%20Serpent%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json"
+    ]
+  },
+  {
+    "weapon": "AK-47",
+    "name": "Uncharted",
+    "urls": [
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Uncharted%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Uncharted%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Uncharted%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Uncharted%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Uncharted%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Uncharted%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Uncharted%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Uncharted%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Uncharted%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Uncharted%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json"
+    ]
+  },
+  {
+    "weapon": "AK-47",
+    "name": "Cartel",
+    "urls": [
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Cartel%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Cartel%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Cartel%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Cartel%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Cartel%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Cartel%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Cartel%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Cartel%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Cartel%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Cartel%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json"
+    ]
+  },
+  {
+    "weapon": "AK-47",
+    "name": "Asiimov",
+    "urls": [
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Asiimov%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Asiimov%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Asiimov%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Asiimov%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Asiimov%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Asiimov%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Asiimov%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Asiimov%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Asiimov%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Asiimov%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json"
+    ]
+  },
+  {
+    "weapon": "AK-47",
+    "name": "The Empress",
+    "urls": [
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20The%20Empress%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20The%20Empress%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20The%20Empress%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20The%20Empress%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20The%20Empress%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20The%20Empress%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20The%20Empress%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20The%20Empress%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20The%20Empress%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20The%20Empress%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json"
+    ]
+  },
+  {
+    "weapon": "AK-47",
+    "name": "Redline",
+    "urls": [
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Redline%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Redline%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Redline%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Redline%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Redline%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Redline%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Redline%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Redline%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json"
+    ]
+  },
+  {
+    "weapon": "AK-47",
+    "name": "Predator",
+    "urls": [
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Predator%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Predator%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Predator%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Predator%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Predator%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json"
+    ]
+  },
+  {
+    "weapon": "AK-47",
+    "name": "Vulcan",
+    "urls": [
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Vulcan%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Vulcan%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Vulcan%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Vulcan%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Vulcan%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Vulcan%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Vulcan%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Vulcan%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Vulcan%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Vulcan%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json"
+    ]
+  },
+  {
+    "weapon": "AK-47",
+    "name": "Jaguar",
+    "urls": [
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Jaguar%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Jaguar%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Jaguar%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Jaguar%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Jaguar%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Jaguar%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Jaguar%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Jaguar%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Jaguar%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Jaguar%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json"
+    ]
+  },
+  {
+    "weapon": "AK-47",
+    "name": "Hydroponic",
+    "urls": [
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Hydroponic%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Hydroponic%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Hydroponic%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Hydroponic%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Hydroponic%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json"
+    ]
+  },
+  {
+    "weapon": "AK-47",
+    "name": "Elite Build",
+    "urls": [
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Elite%20Build%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Elite%20Build%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Elite%20Build%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Elite%20Build%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Elite%20Build%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Elite%20Build%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Elite%20Build%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Elite%20Build%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Elite%20Build%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Elite%20Build%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json"
+    ]
+  },
+  {
+    "weapon": "AK-47",
+    "name": "Safari Mesh",
+    "urls": [
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Safari%20Mesh%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Safari%20Mesh%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Safari%20Mesh%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Safari%20Mesh%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Safari%20Mesh%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/Souvenir%20AK-47%20%7C%20Safari%20Mesh%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/Souvenir%20AK-47%20%7C%20Safari%20Mesh%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/Souvenir%20AK-47%20%7C%20Safari%20Mesh%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/Souvenir%20AK-47%20%7C%20Safari%20Mesh%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/Souvenir%20AK-47%20%7C%20Safari%20Mesh%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json"
+    ]
+  },
+  {
+    "weapon": "AK-47",
+    "name": "First Class",
+    "urls": [
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20First%20Class%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20First%20Class%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20First%20Class%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20First%20Class%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20First%20Class%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json"
+    ]
+  },
+  {
+    "weapon": "AK-47",
+    "name": "Case Hardened",
+    "urls": [
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Case%20Hardened%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Case%20Hardened%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Case%20Hardened%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Case%20Hardened%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Case%20Hardened%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Case%20Hardened%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Case%20Hardened%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Case%20Hardened%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Case%20Hardened%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Case%20Hardened%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json"
+    ]
+  },
+  {
+    "weapon": "AK-47",
+    "name": "Emerald Pinstripe",
+    "urls": [
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Emerald%20Pinstripe%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Emerald%20Pinstripe%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Emerald%20Pinstripe%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Emerald%20Pinstripe%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Emerald%20Pinstripe%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json"
+    ]
+  },
+  {
+    "weapon": "AK-47",
+    "name": "Point Disarray",
+    "urls": [
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Point%20Disarray%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Point%20Disarray%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Point%20Disarray%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Point%20Disarray%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Point%20Disarray%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Point%20Disarray%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Point%20Disarray%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Point%20Disarray%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Point%20Disarray%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Point%20Disarray%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json"
+    ]
+  },
+  {
+    "weapon": "AK-47",
+    "name": "Jungle Spray",
+    "urls": [
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Jungle%20Spray%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Jungle%20Spray%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Jungle%20Spray%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Jungle%20Spray%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Jungle%20Spray%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json"
+    ]
+  },
+  {
+    "weapon": "AK-47",
+    "name": "Frontside Misty",
+    "urls": [
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Frontside%20Misty%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Frontside%20Misty%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Frontside%20Misty%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Frontside%20Misty%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Frontside%20Misty%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Frontside%20Misty%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Frontside%20Misty%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Frontside%20Misty%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Frontside%20Misty%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Frontside%20Misty%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json"
+    ]
+  },
+  {
+    "weapon": "AK-47",
+    "name": "Blue Laminate",
+    "urls": [
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Blue%20Laminate%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Blue%20Laminate%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Blue%20Laminate%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Blue%20Laminate%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Blue%20Laminate%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Blue%20Laminate%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Blue%20Laminate%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Blue%20Laminate%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json"
+    ]
+  },
+  {
+    "weapon": "AK-47",
+    "name": "Red Laminate",
+    "urls": [
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Red%20Laminate%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Red%20Laminate%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Red%20Laminate%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Red%20Laminate%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Red%20Laminate%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Red%20Laminate%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Red%20Laminate%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Red%20Laminate%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Red%20Laminate%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Red%20Laminate%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json"
+    ]
+  },
+  {
+    "weapon": "AK-47",
+    "name": "Black Laminate",
+    "urls": [
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Black%20Laminate%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Black%20Laminate%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Black%20Laminate%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Black%20Laminate%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Black%20Laminate%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json"
+    ]
+  },
+  {
+    "weapon": "AK-47",
+    "name": "Safety Net",
+    "urls": [
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Safety%20Net%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Safety%20Net%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Safety%20Net%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Safety%20Net%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Safety%20Net%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/Souvenir%20AK-47%20%7C%20Safety%20Net%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/Souvenir%20AK-47%20%7C%20Safety%20Net%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/Souvenir%20AK-47%20%7C%20Safety%20Net%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/Souvenir%20AK-47%20%7C%20Safety%20Net%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/Souvenir%20AK-47%20%7C%20Safety%20Net%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json"
+    ]
+  },
+  {
+    "weapon": "AK-47",
+    "name": "Jet Set",
+    "urls": [
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Jet%20Set%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Jet%20Set%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Jet%20Set%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Jet%20Set%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Jet%20Set%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json"
+    ]
+  },
+  {
+    "weapon": "AK-47",
+    "name": "Aquamarine Revenge",
+    "urls": [
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Aquamarine%20Revenge%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Aquamarine%20Revenge%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Aquamarine%20Revenge%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Aquamarine%20Revenge%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Aquamarine%20Revenge%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Aquamarine%20Revenge%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Aquamarine%20Revenge%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Aquamarine%20Revenge%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Aquamarine%20Revenge%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Aquamarine%20Revenge%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json"
+    ]
+  },
+  {
+    "weapon": "AK-47",
+    "name": "Neon Revolution",
+    "urls": [
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Neon%20Revolution%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Neon%20Revolution%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Neon%20Revolution%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Neon%20Revolution%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Neon%20Revolution%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Neon%20Revolution%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Neon%20Revolution%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Neon%20Revolution%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Neon%20Revolution%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Neon%20Revolution%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json"
+    ]
+  },
+  {
+    "weapon": "AK-47",
+    "name": "Wasteland Rebel",
+    "urls": [
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Wasteland%20Rebel%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Wasteland%20Rebel%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Wasteland%20Rebel%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Wasteland%20Rebel%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Wasteland%20Rebel%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Wasteland%20Rebel%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Wasteland%20Rebel%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Wasteland%20Rebel%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Wasteland%20Rebel%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Wasteland%20Rebel%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json"
+    ]
+  },
+  {
+    "weapon": "AK-47",
+    "name": "Fuel Injector",
+    "urls": [
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Fuel%20Injector%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Fuel%20Injector%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Fuel%20Injector%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Fuel%20Injector%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Fuel%20Injector%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Fuel%20Injector%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Fuel%20Injector%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Fuel%20Injector%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Fuel%20Injector%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Fuel%20Injector%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json"
+    ]
+  },
+  {
+    "weapon": "AK-47",
+    "name": "Orbit Mk01",
+    "urls": [
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Orbit%20Mk01%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Orbit%20Mk01%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Orbit%20Mk01%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Orbit%20Mk01%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Orbit%20Mk01%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Orbit%20Mk01%20%28Factory%20New%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Orbit%20Mk01%20%28Minimal%20Wear%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Orbit%20Mk01%20%28Field-Tested%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Orbit%20Mk01%20%28Well-Worn%29/render?start=0&count=10&currency=1&language=english&format=json",
+      "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Orbit%20Mk01%20%28Battle-Scarred%29/render?start=0&count=10&currency=1&language=english&format=json"
     ]
   }
 ]
