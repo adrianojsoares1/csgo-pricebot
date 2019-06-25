@@ -32,9 +32,11 @@ public class RequestHandler implements Handler<Long> {
 
     Request request = requestQueue.poll();
 
-    logs.debug("Requesting {0}", request.getUrl());
+    String url = request.getByIndex();
 
-    webClient.getAbs(request.getUrl()).as(BodyCodec.jsonObject()).send(responseHandler);
+    logs.debug("Retrieving {0}", url);
+
+    webClient.getAbs(url).as(BodyCodec.jsonObject()).send(responseHandler);
   }
 }
 

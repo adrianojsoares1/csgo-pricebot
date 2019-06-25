@@ -25,21 +25,26 @@ public class ItemReadHandler implements Handler<AsyncResult<AsyncFile>> {
 
   @Override
   public void handle(AsyncResult<AsyncFile> ar) {
-    if (ar.failed())
-      throw new PricebotError(ar.cause().getLocalizedMessage());
+    if (ar.failed()){
+      throw new PricebotError(ar.cause().getMessage());
+    }
 
     AsyncFile weaponsFile = ar.result();
     JsonParser parser = JsonParser.newParser(weaponsFile).objectValueMode();
 
     parser.handler(event -> {
-      if (event.type() == JsonEventType.VALUE)
+      if (event.type() == JsonEventType.VALUE) {
         try {
           Skin skin = event.mapTo(Skin.class);
-          skin.getUrls().forEach(url -> requestQueue.add(new Request().setSkin(skin).setUrl(url)));
+
+          int size = skin.getUrls().size();
+          for(int i = 0; i < size; i++)
+            requestQueue.add(new Request(skin, i));
 
         } catch (IllegalArgumentException e) {
           logs.error(e.getMessage());
         }
+      }
     }) //end λ
 
       .exceptionHandler(exc -> {

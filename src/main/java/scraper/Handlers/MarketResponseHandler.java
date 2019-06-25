@@ -35,7 +35,7 @@ public class MarketResponseHandler implements Handler<AsyncResult<HttpResponse<J
     if(API_URL == null)
       throw new PricebotError("Missing API URL, cannot proceed.");
 
-    logs.debug("Sending Market response\n{0} to\n{1}", response.toString(), API_URL);
+    logs.info("Sending Market response\n{0} to\n{1}", response.toString(), API_URL);
 
     client.putAbs(API_URL).sendJson(response, this.handler);
   }
