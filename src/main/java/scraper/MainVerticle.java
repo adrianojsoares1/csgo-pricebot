@@ -28,7 +28,7 @@ public class MainVerticle extends AbstractVerticle {
     WebClient client = WebClient.create(vertx);
 
     weaponReadHandler = new ItemReadHandler(this.requestQueue);
-    responseHandler = new MarketResponseHandler();
+    responseHandler = new MarketResponseHandler(client);
     requestHandler = new RequestHandler(this.requestQueue, this.responseHandler, client);
 
     OpenOptions options = new OpenOptions();

@@ -1,18 +1,18 @@
 package scraper.Handlers;
 
 import io.vertx.core.AsyncResult;
-import io.vertx.core.json.JsonObject;
+import io.vertx.core.Handler;
+import io.vertx.core.buffer.Buffer;
+import io.vertx.core.logging.Logger;
 import io.vertx.core.logging.LoggerFactory;
 import io.vertx.ext.web.client.HttpResponse;
 
-public class PricebotResponseHandler extends AbstractHandler<AsyncResult<HttpResponse<JsonObject>>> {
+public class PricebotResponseHandler implements Handler<AsyncResult<HttpResponse<Buffer>>> {
 
-  public PricebotResponseHandler(){
-    super(LoggerFactory.getLogger(PricebotResponseHandler.class), null);
-  }
+  private Logger logs = LoggerFactory.getLogger(PricebotResponseHandler.class);
 
   @Override
-  public void handle(AsyncResult<HttpResponse<JsonObject>> event){
+  public void handle(AsyncResult<HttpResponse<Buffer>> event){
 
   }
 }

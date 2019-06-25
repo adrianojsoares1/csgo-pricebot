@@ -34,6 +34,10 @@ public class MarketListing {
   @JsonProperty
   public Integer converted_publisher_fee_per_unit;
 
+  public int price(){
+    return converted_price + converted_fee;
+  }
+
   @Override
   public String toString(){
     return "\nListing ID: " + listingid + "\n" +

@@ -1,7 +1,9 @@
 package scraper.Handlers;
 
 import io.vertx.core.AsyncResult;
+import io.vertx.core.Handler;
 import io.vertx.core.file.AsyncFile;
+import io.vertx.core.logging.Logger;
 import io.vertx.core.logging.LoggerFactory;
 import io.vertx.core.parsetools.JsonEventType;
 import io.vertx.core.parsetools.JsonParser;
@@ -11,10 +13,14 @@ import scraper.Models.PricebotError;
 
 import java.util.Queue;
 
-public class ItemReadHandler extends AbstractHandler<AsyncResult<AsyncFile>> {
+public class ItemReadHandler implements Handler<AsyncResult<AsyncFile>> {
+
+  private Logger logs = LoggerFactory.getLogger(ItemReadHandler.class);
+
+  private Queue<Request> requestQueue;
 
   public ItemReadHandler(Queue<Request> requestQueue){
-    super(LoggerFactory.getLogger(ItemReadHandler.class), requestQueue);
+    this.requestQueue = requestQueue;
   }
 
   @Override

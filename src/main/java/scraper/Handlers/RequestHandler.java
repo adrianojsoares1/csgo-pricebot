@@ -1,5 +1,7 @@
 package scraper.Handlers;
 
+import io.vertx.core.Handler;
+import io.vertx.core.logging.Logger;
 import io.vertx.core.logging.LoggerFactory;
 import io.vertx.ext.web.client.WebClient;
 import io.vertx.ext.web.codec.BodyCodec;
@@ -7,17 +9,20 @@ import scraper.Models.Request;
 
 import java.util.Queue;
 
-public class RequestHandler extends AbstractHandler<Long> {
+public class RequestHandler implements Handler<Long> {
 
   public static final int DELAY = 10000; //10 seconds
 
+  private Logger logs = LoggerFactory.getLogger(RequestHandler.class);
+
   private MarketResponseHandler responseHandler;
   private WebClient webClient;
+  private Queue<Request> requestQueue;
 
   public RequestHandler(Queue<Request> requestQueue, MarketResponseHandler requestHandler, WebClient client){
-    super(LoggerFactory.getLogger(RequestHandler.class), requestQueue);
     this.responseHandler = requestHandler;
     this.webClient = client;
+    this.requestQueue = requestQueue;
   }
 
   @Override
@@ -27,7 +32,7 @@ public class RequestHandler extends AbstractHandler<Long> {
 
     Request request = requestQueue.poll();
 
-    logs.info("Requesting {0}", request.getUrl());
+    logs.debug("Requesting {0}", request.getUrl());
 
     webClient.getAbs(request.getUrl()).as(BodyCodec.jsonObject()).send(responseHandler);
   }
