@@ -7,6 +7,7 @@ import io.vertx.core.logging.Logger;
 import io.vertx.core.logging.LoggerFactory;
 import io.vertx.ext.web.client.WebClient;
 import scraper.Handlers.ItemReadHandler;
+import scraper.Handlers.PricebotResponseHandler;
 import scraper.Handlers.RequestHandler;
 import scraper.Handlers.MarketResponseHandler;
 import scraper.Models.Request;
@@ -19,6 +20,7 @@ public class MainVerticle extends AbstractVerticle {
   private ItemReadHandler weaponReadHandler;
   private RequestHandler requestHandler;
   private MarketResponseHandler responseHandler;
+  private PricebotResponseHandler pricebotResponseHandler;
 
   private Queue<Request> requestQueue = new LinkedList<>();
   private final Logger logs = LoggerFactory.getLogger(MainVerticle.class);
@@ -28,7 +30,8 @@ public class MainVerticle extends AbstractVerticle {
     WebClient client = WebClient.create(vertx);
 
     weaponReadHandler = new ItemReadHandler(this.requestQueue);
-    responseHandler = new MarketResponseHandler(client);
+    pricebotResponseHandler = new PricebotResponseHandler();
+    responseHandler = new MarketResponseHandler(client, pricebotResponseHandler);
     requestHandler = new RequestHandler(this.requestQueue, this.responseHandler, client);
 
     OpenOptions options = new OpenOptions();
